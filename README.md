@@ -4,10 +4,11 @@ This is my solutions repo for [Advent of Code 2024][aoc].
 
 ## File Structure
 
-Structure is simple enough: I go into `src/dayXX` and write my solutions there.
+Structure is simple enough: I go into `dayXX` and write my solutions there.
 
-I'll write a Makefile to run each day's program, so that I can write different
-programs in different languages.
+I've written a Makefile to run each day's program, so that I can write different
+programs in different languages. If this turns out to be untenable, I'll just do
+a simple `./run` shell script.
 
 ## Licensing
 
