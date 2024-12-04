@@ -1,0 +1,21 @@
+(lang dune 3.17)
+
+(name day02)
+
+(generate_opam_files true)
+
+(source
+ (github igemnace/advent-of-code-2024))
+
+(authors "Ian Emnace <igemnace@gmail.com>")
+
+(maintainers "Ian Emnace <igemnace@gmail.com>")
+
+(license LICENSE)
+
+(package
+ (name day02)
+ (synopsis "Day 2 solution for Advent of Code 2024")
+ (depends ocaml))
+
+; See the complete stanza docs at https://dune.readthedocs.io/en/stable/reference/dune-project/index.html
