@@ -1,5 +1,5 @@
 .SUFFIXES:
-.PHONY: all clean day01 day02
+.PHONY: all clean day01 day02 day03
 
 # day02 is compiled
 all: day02/_build/.db
@@ -20,3 +20,8 @@ day02:
 # set up compilation with make as well
 day02/_build/.db: day02/bin/main.ml
 	cd day02 && opam exec -- dune build
+
+## DAY 3
+# written in racket!
+day03:
+	cd day03 && racket day03.rkt
